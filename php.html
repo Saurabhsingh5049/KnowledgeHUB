@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Welcome to Knowledge Hub || PHP</title>
+</head>
+<body>
+   <!-- Navbar start -->
+   <nav>
+    <div class="logo">
+        <li><a href="/"><img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="50px"></a></li>
+        <li><a href="/">KnowledgeHUB</a></li>
+    </div>
+    <div class="nav-items">
+        <li><a href="/">Home</a></li>
+        <li><a href="./html.html">HTML</a></li>
+        <li><a href="./css.html">CSS</a></li>
+        <li><a href="./javascript.html">JavaScript</a></li>
+        <li><a href="./python.html">Python</a></li>
+        <li><a href="./sql.html">SQL</a></li>
+        <li><a href="./php.html">PHP</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+    </div>
+   </nav>
+   <!-- Navbar ends-->
+<!-- Content -->
+<div class="container">
+    <div class="small-container detail-page">
+        <article>
+            <div class="text">
+                <h1>SQL</h1>
+            </div>
+            <div class="image">
+                <img src="./Images/php.jpeg" alt="html_image" width="100%">
+                <p>reference from Wikipedia.</p>
+            </div>
+            <div class="text">
+                <p>PHP (Hypertext Preprocessor) is a widely-used, open-source scripting language designed primarily for web development. Created by Rasmus Lerdorf in 1994, PHP is embedded within HTML and is executed on the server side, making it a server-side language. It is especially well-suited for creating dynamic and interactive web applications.
+                    <br>
+                    PHP's primary purpose is to handle backend operations such as processing form data, interacting with databases, managing sessions, and generating dynamic page content. It integrates seamlessly with various databases, including MySQL, PostgreSQL, and SQLite, which makes it a popular choice for data-driven websites.
+                    <br>
+                    One of PHP's strengths is its simplicity and flexibility. Beginners can quickly grasp its syntax, which is similar to C, while experienced developers can build complex applications. PHP supports procedural and object-oriented programming, giving developers the freedom to choose their approach.
+                    <br>
+                    Popular frameworks like Laravel, Symfony, and CodeIgniter have enhanced PHP's capabilities, providing tools for efficient, secure, and scalable development. PHP also powers some of the world’s most popular platforms, including WordPress, Drupal, and Magento.
+                    <br>
+                    Despite competition from modern languages, PHP remains a dominant choice for web development due to its ease of use, extensive community support, and robust library ecosystem.</p>
+            </div>
+        </article>
+    </div>
+</div>
+   <!-- Footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="400px">
+                </div>
+                <!-- Contact Us Form Start -->
+                <div class="footer-col-2" id="contactus">
+                    <h1>Contact Us</h1>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <!-- Contact Us Form End -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+</html>

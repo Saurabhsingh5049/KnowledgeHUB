@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Welcome to Knowledge Hub || SQL</title>
+</head>
+<body>
+   <!-- Navbar start -->
+   <nav>
+    <div class="logo">
+        <li><a href="/"><img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="50px"></a></li>
+        <li><a href="/">KnowledgeHUB</a></li>
+    </div>
+    <div class="nav-items">
+        <li><a href="/">Home</a></li>
+        <li><a href="./html.html">HTML</a></li>
+        <li><a href="./css.html">CSS</a></li>
+        <li><a href="./javascript.html">JavaScript</a></li>
+        <li><a href="./python.html">Python</a></li>
+        <li><a href="./sql.html">SQL</a></li>
+        <li><a href="./php.html">PHP</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+    </div>
+   </nav>
+   <!-- Navbar ends-->
+<!-- Content -->
+<div class="container">
+    <div class="small-container detail-page">
+        <article>
+            <div class="text">
+                <h1>SQL</h1>
+            </div>
+            <div class="image">
+                <img src="./Images/sql.jpeg" alt="html_image" width="100%">
+                <p>reference from Wikipedia.</p>
+            </div>
+            <div class="text">
+                <p>SQL (Structured Query Language) is a standardized language used for managing and manipulating relational databases. It is essential for interacting with databases, allowing users to retrieve, insert, update, and delete data efficiently. Originally developed in the 1970s by IBM, SQL has become the backbone of database management systems like MySQL, PostgreSQL, Microsoft SQL Server, and Oracle Database.
+<br>
+                    SQL's primary strength lies in its simplicity and declarative nature. Users specify what data they need rather than how to retrieve it. Common SQL commands include SELECT for querying data, INSERT for adding records, UPDATE for modifying existing data, and DELETE for removing records. These commands enable precise control over a database's content.
+                    <br>
+                    SQL also supports data definition, allowing users to create, alter, and delete database structures such as tables and indexes. With features like JOIN, SQL can combine data from multiple tables, making it powerful for relational data analysis.
+                    <br>
+                    SQL is widely used in applications where data storage, retrieval, and analysis are critical, including e-commerce, financial systems, and customer management. While SQL is easy to learn, optimizing queries and managing large datasets require deeper expertise. Its universal adoption and flexibility make SQL an indispensable tool for managing data across industries.</p>
+            </div>
+        </article>
+    </div>
+</div>
+   <!-- Footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="400px">
+                </div>
+                <!-- Contact Us Form Start -->
+                <div class="footer-col-2" id="contactus">
+                    <h1>Contact Us</h1>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <!-- Contact Us Form End -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+</html>

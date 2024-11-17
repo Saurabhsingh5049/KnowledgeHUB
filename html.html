@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Welcome to Knowledge Hub || HTML</title>
+</head>
+<body>
+   <!-- Navbar start -->
+   <nav>
+    <div class="logo">
+        <li><a href="/"><img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="50px"></a></li>
+        <li><a href="/">KnowledgeHUB</a></li>
+    </div>
+    <div class="nav-items">
+        <li><a href="/">Home</a></li>
+        <li><a href="./html.html">HTML</a></li>
+        <li><a href="./css.html">CSS</a></li>
+        <li><a href="./javascript.html">JavaScript</a></li>
+        <li><a href="./python.html">Python</a></li>
+        <li><a href="./sql.html">SQL</a></li>
+        <li><a href="./php.html">PHP</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+    </div>
+   </nav>
+   <!-- Navbar ends-->
+<!-- Content -->
+<div class="container">
+    <div class="small-container detail-page">
+        <article>
+            <div class="text">
+                <h1>HTML</h1>
+            </div>
+            <div class="image">
+                <img src="./Images/htmlImage.jpg" alt="html_image" width="100%">
+                <p>reference from Wikipedia.</p>
+            </div>
+            <div class="text">
+                <p>
+                    HTML (Hypertext Markup Language) is the standard language used to create and design the structure of web pages. It provides the foundational framework for websites, defining how text, images, multimedia, and other elements are organized and displayed in a browser. Developed by Tim Berners-Lee in 1991, HTML has evolved significantly over the years, with its latest version, HTML5, introducing advanced features for multimedia, interactivity, and responsiveness.
+                    <br>
+                    HTML is not a programming language but a markup language, which means it uses a system of instructions to organize content. These instructions serve as guidelines for browsers to interpret and display content properly. HTML documents begin with a declaration that specifies which version of HTML to use, and they consist of two main sections: a head section and a body section.
+                    <br>
+                    The head section contains metadata about the document, such as the title displayed on the browser tab and links to external resources like stylesheets and scripts. The body section includes all the visible content users interact with on the web page, such as text, images, videos, forms, and links.
+                    <br>
+                    HTML plays a crucial role in structuring content semantically. For example, specific sections of a web page, like headers or footers, are defined using descriptive elements. Content is logically organized using sections and articles, which help improve accessibility and search engine optimization.
+                    <br>
+                    One of HTML's key features is its ability to embed external resources. Images, videos, and audio files can be seamlessly integrated into web pages. Hyperlinks connect pages and resources, forming the interconnected structure of the World Wide Web.
+                    <br>
+                    HTML is often used in conjunction with Cascading Style Sheets and JavaScript. Cascading Style Sheets is responsible for styling and layout, controlling aspects like fonts, colors, and spacing. JavaScript adds interactivity and dynamic behavior to web pages, such as animations, form validation, and content updates without reloading the page.
+                    <br>
+                    The latest version, HTML5, introduced several enhancements, including tools for drawing graphics, geolocation APIs, offline storage capabilities, and native support for video and audio without relying on external plugins. It emphasizes cleaner code and semantic elements that improve accessibility and compatibility with modern web standards.
+                    <br>
+                    HTML is maintained by organizations like the World Wide Web Consortium and the Web Hypertext Application Technology Working Group. These organizations ensure its continued evolution to meet the demands of modern web development.
+                    <br>
+                    In summary, HTML is the backbone of the internet, providing the structure and foundation for all websites. Whether you're designing a simple personal blog or a complex web application, understanding and using HTML is essential for creating functional and user-friendly web experiences.
+                </p>
+            </div>
+        </article>
+    </div>
+</div>
+   <!-- Footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="400px">
+                </div>
+                <!-- Contact Us Form Start -->
+                <div class="footer-col-2" id="contactus">
+                    <h1>Contact Us</h1>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <!-- Contact Us Form End -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+</html>

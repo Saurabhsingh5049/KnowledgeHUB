@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <div class="nav-links">
+      <a href="#section1">Home</a>
+      <a href="#section2">About</a>
+      <a href="#section3">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- First Section -->
+  <section id="section1" class="section section-reveal">
+    <h1>Welcome to My Portfolio</h1>
+    <div class="content">
+      <img src="image1.jpg" alt="Image 1">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img src="image2.jpg" alt="Image 2">
+      <p>Praesent vel nisi ac erat ultricies suscipit.</p>
+    </div>
+  </section>
+
+  <!-- Second Section -->
+  <section id="section2" class="section section-left">
+    <h2>About Me</h2>
+    <div class="content">
+      <img src="image3.jpg" alt="Image 3">
+      <p>Donec auctor quam sit amet turpis fringilla, at vestibulum lectus volutpat.</p>
+      <img src="image4.jpg" alt="Image 4">
+      <p>Morbi aliquam, purus id blandit posuere, libero nisi feugiat erat, nec laoreet lectus justo vel risus.</p>
+    </div>
+  </section>
+
+  <!-- Third Section -->
+  <section id="section3" class="section section-right">
+    <h2>My Projects</h2>
+    <div class="content">
+      <img src="image5.jpg" alt="Image 5">
+      <p>Fusce id nunc id massa ultricies faucibus eget non arcu.</p>
+      <img src="image6.jpg" alt="Image 6">
+      <p>Sed in ligula in odio convallis eleifend.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <h3>Contact Me</h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </footer>
+</body>
+</html>

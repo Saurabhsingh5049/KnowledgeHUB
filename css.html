@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Welcome to Knowledge Hub || CSS</title>
+</head>
+<body>
+   <!-- Navbar start -->
+   <nav>
+    <div class="logo">
+        <li><a href="/"><img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="50px"></a></li>
+        <li><a href="/">KnowledgeHUB</a></li>
+    </div>
+    <div class="nav-items">
+        <li><a href="/">Home</a></li>
+        <li><a href="./html.html">HTML</a></li>
+        <li><a href="./css.html">CSS</a></li>
+        <li><a href="./javascript.html">JavaScript</a></li>
+        <li><a href="./python.html">Python</a></li>
+        <li><a href="./sql.html">SQL</a></li>
+        <li><a href="./php.html">PHP</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+    </div>
+   </nav>
+   <!-- Navbar ends-->
+<!-- Content -->
+<div class="container">
+    <div class="small-container detail-page">
+        <article>
+            <div class="text">
+                <h1>CSS</h1>
+            </div>
+            <div class="image">
+                <img src="./Images/CSS.jpg" alt="html_image" width="100%">
+                <p>reference from Wikipedia.</p>
+            </div>
+            <div class="text">
+                <p>
+                   
+                    CSS (Cascading Style Sheets) is a language used to control the appearance and layout of web pages. It works alongside HTML, which defines the structure and content, while CSS determines the visual style, such as colors, fonts, spacing, and positioning. By using CSS, web developers can create consistent and visually appealing designs for websites.
+                    <br>
+                    Key Features of CSS
+                    Separation of Content and Design
+                    CSS separates the design elements from the content. This makes it easier to manage and update the appearance of a website without altering the content itself.
+                    <br>
+                    Cascading Rules
+                    The "cascading" aspect of CSS means that when multiple rules apply to the same element, the browser determines which rule takes precedence based on importance. This hierarchy ensures flexibility in styling.
+                    <br>
+                    Responsive Design
+                    CSS allows websites to adapt to different screen sizes and devices, ensuring a good user experience. Using techniques like responsive layouts and media queries, developers can optimize web pages for desktops, tablets, and mobile phones.
+                    <br>
+                    Styling Capabilities
+                    CSS provides control over nearly every visual aspect of a website, including:
+                    <br>
+                    Text properties such as font styles, sizes, colors, and alignment.
+                    Layout options like margins, padding, and positioning.
+                    Background features like colors, gradients, and images.
+                    Animations and transitions to add interactivity.
+                    Reusability
+                    CSS enables the reuse of styles across multiple web pages through external stylesheets. This reduces redundancy and ensures a consistent look throughout a website.
+                    Types of CSS
+                    Inline CSS
+                    Inline CSS applies directly to specific elements within the HTML structure. It is used for quick changes or for unique styles that do not repeat.
+                    <br>
+                    Internal CSS
+                    Internal CSS is written within the header section of a web page. This method is suitable for single-page designs where styles do not need to be shared across pages.
+                    <br>
+                    External CSS
+                    External CSS is stored in a separate file and linked to one or more web pages. This is the most efficient method for maintaining and managing styles, especially for websites with multiple pages.
+                    <br>
+                    Modern CSS Features
+                    Advanced layout systems like Grid and Flexbox, which make it easier to design complex layouts.
+                    Variables for defining reusable values like colors or spacing.
+                    Media queries that adapt styles to different screen sizes or orientations.
+                    Dynamic animations and transitions for interactive effects.
+                    Benefits of CSS
+                    Simplifies the process of creating visually appealing and professional-looking websites.
+                    Saves time by reducing the need to write redundant code.
+                    Improves website performance through optimized styling.
+                    Enhances accessibility and usability for users.
+                    In summary, CSS is an essential tool in web development that enables developers to control the design and layout of web pages. It complements HTML by making websites more engaging, responsive, and user-friendly, playing a crucial role in modern web development.
+                </p>
+            </div>
+        </article>
+    </div>
+</div>
+   <!-- Footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="400px">
+                </div>
+                <!-- Contact Us Form Start -->
+                <div class="footer-col-2" id="contactus">
+                    <h1>Contact Us</h1>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <!-- Contact Us Form End -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+</html>

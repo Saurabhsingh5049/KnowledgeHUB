@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Welcome to Knowledge Hub.</title>
+</head>
+<body>
+    <!-- Navbar start -->
+   <nav>
+    <div class="logo">
+        <li><a href="/"><img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="50px"></a></li>
+        <li><a href="/">KnowledgeHUB</a></li>
+    </div>
+    <div class="nav-items">
+        <li><a href="/">Home</a></li>
+        <li><a href="./html.html">HTML</a></li>
+        <li><a href="./css.html">CSS</a></li>
+        <li><a href="./javascript.html">JavaScript</a></li>
+        <li><a href="./python.html">Python</a></li>
+        <li><a href="./sql.html">SQL</a></li>
+        <li><a href="./php.html">PHP</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+    </div>
+   </nav>
+   <!-- Navbar ends-->
+    <!-- Header Start -->
+   <div id='header'>
+    <div class='container'>
+        <div class="header_text">
+            <p>Welcome to</p>
+            <h1><span>KnowledgeHUB,</span> <br>Your Gateway to Infinite Learning</h1>
+        </div>
+    </div>
+</div>
+<!-- Header end -->
+<div class="container">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-1">
+                <a href="/html.html">
+                <img src="./Images/htmlImage.png">
+                <h4>HTML</h4></a>
+                <hr>
+                <p>Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser.<span class="extra-text"> It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript, a programming language.</span></p>
+            </div>
+            <div class="col-1">
+                <a href="/html.html">
+                <img src="./Images/cssImage.png">
+                <h4>CSS</h4></a>
+                <hr>
+                <p>Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. <span class="extra-text">CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</span></p>
+            </div>
+            <div class="col-1">
+                <a href="/html.html">
+                <img src="./Images/jsimag.png">
+                <h4>JavaScript</h4></a>
+                <hr>
+                <p>JavaScript is a high-level programming language that follows the ECMAScript standard.  <span class="extra-text">It was originally designed as a scripting language for websites but became widely adopted as a general-purpose programming language, and is currently the most popular programming language in use.</span></p>
+            </div>
+            <div class="col-1">
+                <a href="/html.html">
+                <img src="./Images/PythonImage.png">
+                <h4>Python</h4></a>
+                <hr>
+                <p>Python is a programming language. It was made to be open source and easy to read. <span class="extra-text"> A Dutch programmer named Guido van Rossum made Python in 1991. He named it after the television program Monty Python's Flying Circus.</span></p>
+            </div> <div class="col-1">
+                <a href="/html.html">
+                <img src="./Images/sqlImage.png">
+                <h4>SQL</h4></a>
+                <hr>
+                <p>Structured Query Language (SQL) is one of the languages used to view or change data in databases.<span class="extra-text">The statements used in this language are called SQL queries.</span></p>
+            </div> <div class="col-1">
+                <a href="/html.html">
+                <img src="./Images/phpImage.png">
+                <h4>PHP</h4></a>
+                <hr>
+                <p>PHP is a general-purpose scripting language geared towards web development.<span class="extra-text"> It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group.</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+   <!-- Footer start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="./Images/KnowledgeHUB logo.png" alt="KnowledgeHUBLOGO" width="400px">
+                </div>
+                <!-- Contact Us Form Start -->
+                <div class="footer-col-2" id="contactus">
+                    <h1>Contact Us</h1>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <!-- Contact Us Form End -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer end -->
+</body>
+</html>
